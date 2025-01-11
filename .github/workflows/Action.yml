@@ -457,6 +457,8 @@ jobs:
         cp -r Mononoke-repo/Surge/Rules/Ads_SukkaW.list Mononoke-repo/Stash/Rules/Ads_SukkaW.yaml
         cp -r Mononoke-repo/Surge/Rules/Reject.list Mononoke-repo/Stash/Rules/Reject.yaml
         cp -r Mononoke-repo/Surge/Rules/Ads_DiDiChuXing.list Mononoke-repo/Stash/Rules/Ads_DiDiChuXing.yaml
+        # ConnersHua
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_ConnersHua.yaml "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
         # Lan
         cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Stash/Rules/Lan.yaml
 
@@ -535,6 +537,8 @@ jobs:
         cp -r Mononoke-repo/Surge/Rules/Ads_SukkaW.list Mononoke-repo/Stash/Rules/Ads_SukkaW.list
         cp -r Mononoke-repo/Surge/Rules/Reject.list Mononoke-repo/Stash/Rules/Reject.list
         cp -r Mononoke-repo/Surge/Rules/Ads_DiDiChuXing.list Mononoke-repo/Stash/Rules/Ads_DiDiChuXing.list
+        # ConnersHua
+        curl -L -o Mononoke-repo/Stash/Rules/Ads_ConnersHua.list "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
         # Lan
         cp -r Mononoke-repo/Surge/Rules/Lan.list Mononoke-repo/Stash/Rules/Lan.list
 
