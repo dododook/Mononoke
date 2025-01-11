@@ -565,7 +565,7 @@ jobs:
                    -e 's/,DIRECT$//g' \
                    -e 's/,reject$//g' \
                    -e 's/,direct$//g' \
-                   -e '/\(USER-AGENT\|URL-REGEX\|OR\|AND\|NOT\),/ s/^/#/' \
+                   -e '/\(USER-AGENT\|URL-REGEX\|DOMAIN-WILDCARD\|OR\|AND\|NOT\),/ s/^/#/' \
                    -e 's| \{1,\}//.*$||' \
                    -e '/# 更新：/d' \
                    -e '/# AUTHOR:/d' \
